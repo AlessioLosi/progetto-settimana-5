@@ -196,7 +196,7 @@ section.laterale article{
     margin-left: 20%;
     margin-top: 2%;
 }
-section.laterale article p{
+section.laterale article p {
     background-color: rgb(255, 255, 255);
     color: gray;
     border:1px solid gray;
@@ -208,4 +208,13 @@ section.laterale article p{
 hr{
     color: gray;
     width: 80%;
+}
+section.laterale ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+section.laterale ul li a{
+    margin-right: 8px;
+    color: rgb(174, 169, 169);
 }
