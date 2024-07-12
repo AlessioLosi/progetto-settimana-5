@@ -168,9 +168,9 @@ article.articoloaside {
     flex-grow: 1;
 }
 
-.immaginearticolo {
+div.immaginearticolo img {
     margin-left: 10px;
-    width: 50%;
+    width: 200px;
 }
 
 .verticale {

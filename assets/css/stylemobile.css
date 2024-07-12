@@ -60,15 +60,10 @@ a {
     border-bottom: 1.6px solid black;
 }
 
-iframe {
-    width: 30%;
-    height: 350px;
-
-}
 
 .yellowp {
     margin-left: 5%;
-    height: 150px;
+    height: 100px;
 }
 
 h1 {
@@ -95,6 +90,7 @@ div.yellowp p {
 
 .trending {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
 
@@ -102,9 +98,9 @@ div.yellowp p {
 
 .articoli {
     display: flex;
-    width: 48%;
     height: 100px;
     margin-bottom: 50px;
+    margin-left: 10%;
 }
 
 article.articoli img {
@@ -195,7 +191,7 @@ section.laterale article p {
     background-color: rgb(255, 255, 255);
     color: gray;
     border:1px solid gray;
-    margin:2px;
+    margin:10px;
     padding: 5px;
     border-radius: 15%;
     overflow: hidden;
