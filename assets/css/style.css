@@ -1,5 +1,6 @@
 /* Your styles here */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
 
 body {
     margin: 0;
@@ -15,6 +16,13 @@ nav {
     background-color: #ffc017;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 1.6px solid black;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .navbar {
@@ -22,23 +30,182 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /*gap: 5%;
-    margin-left: 30%;*/
-    flex-grow: 0.1;
-    margin-left: 40%;
+    flex-grow: 0.3;
+    margin-left: 55%;
     align-items: center;
     font-size: 0.8em;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
 .getstarted {
-    margin-right: 5%;
     padding: 10px 5px;
     background-color: #191919;
     color: white;
     border-radius: 20%;
     overflow: initial;
+}
+
+.yellowbar {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc017;
+    height: 300px;
+    border-bottom: 1.6px solid black;
+}
+
+iframe {
+    width: 30%;
+    height: 350px;
+
+}
+
+.yellowp {
+    margin-left: 5%;
+    height: 150px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 10% 0;
+
+}
+
+div.yellowp p {
+    margin: 30px 0px;
+    width: 70%;
+}
+
+.intArticoli {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.articoli {
+    display: flex;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+article.articoli img {
+    width: 20px;
+}
+
+article.articoli h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(145, 143, 143);
+    opacity: 80%;
+    margin-right: 5px;
+
+}
+
+article.articoli h3,
+aside section article h3 {
+    font-size: 1.3rem;
+    font-weight: 900;
+
+}
+
+.articoloverticale {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.grassetto {
+    font-weight: bold;
+}
+
+.grigio {
+    font-weight: 200;
+    color: gray;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+}
+
+div.articoloverticale p img {
+    border-radius: 50%;
+}
+
+.bordogrigio {
+    border-bottom: 1px solid rgb(171, 168, 168);
+}
+
+aside {
+    display: flex;
+    justify-content: space-around;
+}
+
+article.articoloaside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    flex-grow: 1;
+}
+
+.immaginearticolo {
+    margin-left: 10px;
+    width: 50%;
+}
+
+.verticale {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+p.grassetto img {
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 8%;
+}
+
+p.grassetto {
+    display: flex;
+    align-items: center;
+}
+section.laterale article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.laterale{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+section.laterale article p{
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    border:1px solid gray;
+    margin:10px;
+    padding: 5px;
+    border-radius: 15%;
+    overflow: hidden;
+}
+hr{
+    color: gray;
+    width: 80%;
 }
